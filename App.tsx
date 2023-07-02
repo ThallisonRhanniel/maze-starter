@@ -9,6 +9,7 @@ import Icon from "./src/common/components/Icon";
 import Avatar from "./src/common/components/Avatar";
 import BackButton from "./src/common/components/BackButton";
 import NotFound from "./src/common/components/NotFound";
+import Input from "./src/common/components/Input";
 import { defaultTheme } from './src/common/constants/styles/theme/defaultTheme';
 
 export default function App() {
@@ -22,6 +23,8 @@ export default function App() {
               console.log("clicou no botão in");
             }}
           />
+          <Spacer height={20} />
+          <Input loading />
           <Spacer height={20} />
           <Text size={30} color="onSecondary">
             1 Meu componente de text
